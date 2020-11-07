@@ -4,10 +4,10 @@
   "description": "",
   "main": "sum.js",
   "directories": {
-    "test": "jest && codecov"
+    "test": "jest --ci --coverage && codecov"
   },
   "dependencies": {
-    "codecov": "^3.8.0",
+    "codecov": "^3.8.1",
     "jest": "^26.6.1"
   },
   "devDependencies": {},

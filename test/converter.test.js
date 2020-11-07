@@ -18,7 +18,7 @@ test('1 bath to equal $0.30 call from api', () => {
   let a = 1
   
   // Act
-  jest.mock('exchangeRate');
+  //  jest.mock('exchangeRate');
   const resp = 0.03;
   // exchangeRate.mockResolvedValue(resp)
   
