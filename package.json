@@ -1,18 +1,16 @@
 {
-  "name": "unit_testing",
+  "name": "newlab",
   "version": "1.0.0",
   "description": "",
   "main": "sum.js",
-  "directories": {
-    "test": "jest --ci --coverage && codecov"
-  },
   "dependencies": {
     "codecov": "^3.8.1",
     "jest": "^26.6.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage && codecov",
+    "codecov": "codecov"
   },
   "author": "",
   "license": "ISC"
