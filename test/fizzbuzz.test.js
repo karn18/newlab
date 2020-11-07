@@ -11,16 +11,16 @@ test('multiple by 3 should print Fizz', () => {
   expect(result).toEqual("Fizz");
 })
 
-test('multiple by 5 should print Buzz', () => {
-  // Arrange
-  let number = 5
+// test('multiple by 5 should print Buzz', () => {
+//   // Arrange
+//   let number = 5
 
-  // Act
-  let result = fizzbuzz(number)
+//   // Act
+//   let result = fizzbuzz(number)
 
-  // Assert
-  expect(result).toEqual("Buzz");
-})
+//   // Assert
+//   expect(result).toEqual("Buzz");
+// })
 
 // test('multiple by 15 should print FizzBuzz', () => {
 //   // Arrange
