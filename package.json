@@ -1,0 +1,19 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "directories": {
+    "test": "jest && codecov"
+  },
+  "dependencies": {
+    "codecov": "^3.8.0",
+    "jest": "^26.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
