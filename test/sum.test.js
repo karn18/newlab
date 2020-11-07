@@ -20,5 +20,5 @@ test('adds 2 + 2 to equal 4', () => {
   let result = sum(a, b)
 
   // Assert
-  expect(4).toBe(result);
+  expect(3).toBe(result);
 })
